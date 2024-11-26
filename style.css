@@ -1,7 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: content-box;
 }
 :root {
-  --accent-color: #9e9db4;
+  --accent-color: #9e9def;
+  --primary: #e39ad1;
+  --secondary: #ffbc9b;
+  --lightGreen: #d8f1a4;
+  --mediumGreen: #9defc7;
+}
+
+header {
+  background-color: var(--accent-color);
+}
+
+.hero {
+  background-image: url(/assets/Hero-bg.svg);
 }
