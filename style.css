@@ -25,19 +25,64 @@ header {
   padding-top: 15px;
   padding-bottom: 20px;
 }
+
+.hero h1 {
+  color: var(--accent-color);
+  -webkit-text-stroke: 1px black;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
 .nuestros-productos {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 16px;
   margin-bottom: 30px;
 }
 
+.nuestros-productos h2 {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
 .card-info {
   background-color: var(--secondary);
+  background-image: url(/imagenes/bonchy-avatar.webp);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   margin: 10px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 228px;
+  width: 312px;
+  align-content: end;
+}
+
+.card-info h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 130px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 1px black;
+}
+
+.card-info button {
+  width: 82px;
+  height: 40px;
+  border: 0px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  align-self: center;
 }
