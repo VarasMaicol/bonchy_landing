@@ -36,8 +36,10 @@ header {
 
 .nuestros-productos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 30px;
 }
@@ -45,11 +47,14 @@ header {
 .nuestros-productos h2 {
   margin-left: 20px;
   font-size: 30px;
+  align-self: flex-start;
 }
 
 .card-info {
   background-color: var(--secondary);
   background-image: url(/imagenes/bonchy-avatar.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
