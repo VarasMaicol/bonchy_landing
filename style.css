@@ -47,7 +47,6 @@ header {
 h2 {
   margin-left: 20px;
   font-size: 30px;
-  align-self: flex-start;
 }
 
 .card-info {
@@ -90,4 +89,13 @@ h2 {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   align-self: center;
+}
+
+button:hover {
+  background-color: var(--primary);
+  transition: ease-in;
+  -webkit-transition: ease-in;
+  -moz-transition: ease-in;
+  -ms-transition: ease-in;
+  -o-transition: ease-in;
 }
