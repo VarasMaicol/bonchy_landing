@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.7198092"
-     inkscape:cx="454.98168"
-     inkscape:cy="561.25984"
+     inkscape:cx="1207.959"
+     inkscape:cy="401.49529"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -40,9 +40,9 @@
      id="layer1">
     <path
        id="Hero"
-       d="M -52.49012,33.08556 H 282.051 V 224.0904 c 0,0 -167.27103,23.46796 -167.27103,23.14239 0,-0.32611 -167.27009,-23.14239 -167.27009,-23.14239 z"
+       d="M -52.49012,-35.650826 H 416.95075 V 216.66126 c 0,0 -234.72109,31.00052 -234.72109,30.57045 0,-0.43078 -234.71978,-30.57045 -234.71978,-30.57045 z"
        fill="#d8f1a4"
        fill-rule="evenodd"
-       style="stroke-width:0.710696" />
+       style="stroke-width:0.967601" />
   </g>
 </svg>

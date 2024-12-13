@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 :root {
   --accent-color: #9e9def;
@@ -17,7 +17,9 @@ header {
 }
 
 .hero {
-  background-color: var(--lightGreen);
+  background-image: url(imagenes/Hero-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
   text-align: center;
   display: flex;
   flex-direction: column;
